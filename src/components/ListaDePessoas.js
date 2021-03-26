@@ -20,9 +20,9 @@ class ListaPessoas extends Component {
 
   sucesso = (record) => {
       if(record.isVacinada) {
-          record.isVacinada = false;
+          record.isVacinada = false
       } else 
-          record.isVacinada = true;
+          record.isVacinada = true
     
 
       PessoaDataService.atualizarPessoa(record, record.codigo);

@@ -8,7 +8,7 @@ class PessoaDataService {
     }
 
     atualizarPessoa(pessoa, codigo) {
-        return axios.put(`{API_URL}pessoas/${codigo}`, pessoa); 
+        return axios.put(`${API_URL}pessoas/${codigo}`, pessoa); 
     }
 }
 
