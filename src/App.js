@@ -1,6 +1,7 @@
 import './App.css';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu } from 'antd';
 import "antd/dist/antd.css";
+import ListaPessoas from './components/ListaDePessoas';
 
 const {Header, Content, Footer} = Layout;
 
@@ -17,7 +18,9 @@ function App() {
         </Header>
         <Content style={{padding: '0 50px'}}>
           <div className="site-layout-content">
-            Opa
+            <ListaPessoas>  
+              
+            </ListaPessoas>
           </div>
         </Content>
         <Footer style={{textAlign: 'center'}}>
